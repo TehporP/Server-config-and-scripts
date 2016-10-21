@@ -1,0 +1,1 @@
+recipes.addShaped(<minecraft:sponge>*8, [[<ore:blockWool>,<ore:blockWool>,<ore:blockWool>],[<ore:blockWool>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>),<ore:blockWool>],[<ore:blockWool>,<ore:blockWool>,<ore:blockWool>]]);
