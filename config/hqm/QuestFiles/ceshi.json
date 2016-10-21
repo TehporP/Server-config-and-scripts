@@ -1,0 +1,1173 @@
+{
+  "name": "ceshi",
+  "description": "虽然你才不相信什么光怪陆离的什么故事,但是你却不得不面对一个事实——该怎么在这片空域中扎稳脚跟呢？",
+  "quests": [
+    {
+      "name": "伟大的第一步",
+      "description": "正当你思索怎么开始的时候,忽然你想起来了你的背包有几个宝贝没拿出来,于是你开始翻起了背包…… (这些是新手奖励)",
+      "x": 34,
+      "y": 16,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:pickaxe",
+          "nbt": "{InfiTool:{BaseDurability:60,Head:3,HeadEXP:0L,BaseAttack:3,ToolEXP:0L,Built:1b,HarvestLevel:0,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:0},display:{Name:\"§f燧石 镐\"}}"
+        },
+        {
+          "id": "TConstruct:hatchet",
+          "nbt": "{InfiTool:{BaseDurability:60,Head:3,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:5,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,MiningSpeed:400,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:0},display:{Name:\"§f燧石 手斧\"}}"
+        },
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:carrot",
+          "amount": 8
+        },
+        {
+          "id": "IC2:itemArmorJetpackElectric",
+          "damage": 1,
+          "nbt": "{charge:30000.0d}"
+        }
+      ]
+    },
+    {
+      "name": "人类和灵长类的区别",
+      "description": "事实上你带来的工具不可能一直用下去,总得找个方法去补充工具。幸好,空域上的人们有着自己独特的制作工具的方式,而且他们很乐意教导给你……",
+      "x": 37,
+      "y": 72,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:240,Head:2,HeadEXP:0L,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:2,Attack:4,RenderHead:2,ModDurability:0.0f,Handle:2,Broken:0b,Shoddy:0.0f,RenderHandle:2,Accessory:2,MiningSpeed:600,RenderAccessory:2,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:240,Modifiers:0},display:{Name:\"§f铁 镐\"}}"
+      },
+      "prerequisites": [
+        "伟大的第一步"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "玩家需要获得指定物品。要求的物品无需提交，只需要在玩家物品栏中即可。                                请使用橡木来制作所有三个工具桌。",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:pickaxe",
+          "nbt": "{InfiTool:{BaseDurability:240,Head:2,HeadEXP:0L,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:2,Attack:4,RenderHead:2,ModDurability:0.0f,Handle:2,Broken:0b,Shoddy:0.0f,RenderHandle:2,Accessory:2,MiningSpeed:600,RenderAccessory:2,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:240,Modifiers:0},display:{Name:\"§f铁 镐\"}}"
+        },
+        {
+          "id": "TConstruct:shovel",
+          "nbt": "{InfiTool:{BaseDurability:240,Head:2,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:3,Attack:5,RenderHead:2,ModDurability:0.0f,Handle:2,Broken:0b,Shoddy:0.0f,RenderHandle:2,MiningSpeed:600,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:240,Modifiers:0},display:{Name:\"§f铁 铲\"}}"
+        },
+        {
+          "id": "TConstruct:lumberaxe",
+          "nbt": "{InfiTool:{RenderExtra:2,BaseDurability:1350,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:3,RenderHead:2,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:2,Accessory:2,MiningSpeed:600,Unbreaking:1,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:1350,MiningSpeed2:600,Head:2,Attack:4,Handle:2,Broken:0b,Extra:2,RenderAccessory:2,ToolLevel:1,Modifiers:0},display:{Name:\"§f铁 伐木斧\"}}"
+        }
+      ]
+    },
+    {
+      "name": "民以食为天",
+      "description": "说真的,你只是一介凡人,可不会什么辟谷之术.所以开垦种田显得格外有必要.",
+      "x": 84,
+      "y": 21,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "prerequisites": [
+        "人类和灵长类的区别"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:carrot"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "TConstruct:mattock",
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"§f燧石 鹤嘴锄\"}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:potato",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "避难所",
+      "description": "当你解决了温饱问题的时候,是时候给自己弄一个庇护所了,毕竟你也不想每天晚上睡在冰冷的石头上,不是吗",
+      "x": 84,
+      "y": 69,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersBed"
+      },
+      "prerequisites": [
+        "民以食为天"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:chest"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:bed"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:torch",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "怪物猎人",
+      "description": "空域那一点都好,就是怪物特别多,他们在狂风中的呼啸让你十分烦恼,为了你有一个美好的梦乡,干翻他们把！",
+      "x": 39,
+      "y": 120,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 2
+      },
+      "prerequisites": [
+        "避难所"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "僵尸",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 15,
+              "exact": false
+            },
+            {
+              "name": "蜘蛛",
+              "icon": {
+                "id": "minecraft:spider_eye"
+              },
+              "mob": "Spider",
+              "kills": 15,
+              "exact": false
+            },
+            {
+              "name": "骷髅",
+              "icon": {
+                "id": "minecraft:skull"
+              },
+              "mob": "Skeleton",
+              "kills": 15,
+              "exact": false
+            },
+            {
+              "name": "JJ怪",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 4
+              },
+              "mob": "Creeper",
+              "kills": 15,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:broadsword",
+          "nbt": "{InfiTool:{BaseDurability:288,Head:2,BaseAttack:7,ToolEXP:0L,Built:1b,HarvestLevel:3,Attack:7,RenderHead:2,ModDurability:0.0f,Handle:2,Broken:0b,Shoddy:0.0f,RenderHandle:2,Accessory:2,MiningSpeed:600,RenderAccessory:2,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:288,Modifiers:0},display:{Name:\"§f铁 大剑\"}}"
+        },
+        {
+          "id": "minecraft:chainmail_helmet"
+        },
+        {
+          "id": "minecraft:chainmail_chestplate"
+        },
+        {
+          "id": "minecraft:chainmail_leggings"
+        },
+        {
+          "id": "minecraft:chainmail_boots"
+        }
+      ]
+    },
+    {
+      "name": "亮晶晶的玩意",
+      "description": "虽然是空域,但是仍然含有了丰富的矿物,但是在采集的时候小心点,莫一失足成了千古恨",
+      "x": 38,
+      "y": 179,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "怪物猎人"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "IC2:blockOreCopper"
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "IC2:blockOreLead"
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "IC2:blockOreTin"
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 15,
+          "amount": 8
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 9,
+          "amount": 32
+        },
+        {
+          "id": "IC2:itemIngot",
+          "damage": 1,
+          "amount": 32
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        },
+        {
+          "id": "Railcraft:ingot",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "伐木工",
+      "description": "事实上你之前砍的木头不算多,再来那么几组吧,好东西永远都不嫌多",
+      "x": 89,
+      "y": 114,
+      "icon": {
+        "id": "minecraft:iron_axe"
+      },
+      "prerequisites": [
+        "亮晶晶的玩意"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log",
+                "damage": 3
+              },
+              "required": 128,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:SearedBrick",
+          "damage": 3,
+          "amount": 12
+        },
+        {
+          "id": "IC2:blockOreTin",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "热火朝天",
+      "description": "住在空域的人们自然有自己的冶炼金属的方法,同样的,他们也很乐意传授给你",
+      "x": 90,
+      "y": 177,
+      "icon": {
+        "id": "minecraft:fire"
+      },
+      "prerequisites": [
+        "伐木工"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 4
+              },
+              "required": 18
+            },
+            {
+              "item": {
+                "id": "TConstruct:LavaTank"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 64
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "更大,更好",
+      "description": "用燧石制作的工具只能解燃眉之急,但是陪不了你一生,既然你有了一个冶炼炉，为什么不做一些模具好让自己可以制作更好的装备呢？",
+      "x": 157,
+      "y": 98,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "热火朝天"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:swordBlade",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:hatchetHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:shovelHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:brick"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 12
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 14,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "炊事班",
+      "description": "在空域冒险,总会遇见食物不够的尴尬情况,这种情况下最好用身边的食材给自己吃顿好的,所以,一个平底锅是很重要的，能能给自己填饱肚子,也能用锅底狠狠地给怪物脑袋狠狠一击",
+      "x": 232,
+      "y": 15,
+      "icon": {
+        "id": "TConstruct:frypan",
+        "nbt": "{InfiTool:{BaseDurability:380,Head:14,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:4,Attack:5,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:650,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:380,Modifiers:0},display:{Name:\"§f青铜 煎锅\"}}"
+      },
+      "prerequisites": [
+        "吃我一锤！"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:frypan",
+                "nbt": "{InfiTool:{BaseDurability:380,Head:14,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:4,Attack:5,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:650,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:380,Modifiers:0},display:{Name:\"§f青铜 煎锅\"}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 15,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        },
+        {
+          "id": "Railcraft:ingot",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "蒸汽时代",
+      "description": "过了那么久,你已经成功的在这片空域扎下了脚跟,于是你从你背包中拿出了一本书——《实业教导》,按照这本书所说的,你应该先制作一台蒸汽锅炉,好让自己开始伟大的第一步",
+      "x": 278,
+      "y": 11,
+      "bigicon": true,
+      "icon": {
+        "id": "Railcraft:fluid.steam"
+      },
+      "prerequisites": [
+        "一刀两断"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "gregtech:gt.blockmachines",
+                "damage": 100
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 15,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:coal",
+          "amount": 32
+        },
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "吃我一锤！",
+      "description": "锤子的用途可能远比你想象得要多,有的锤子可以探矿,有些锤子可以用来大范围的挖矿,更有一些锤子可以用来调整机器,不过再试着吧锤子舞的虎虎生风的时候,别让锤子把你舞的虎虎生风",
+      "x": 234,
+      "y": 73,
+      "icon": {
+        "id": "TConstruct:hammer",
+        "nbt": "{InfiTool:{RenderExtra:1543,BaseDurability:5400,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:2,HarvestLevelExtra:3,RenderHead:1543,ModDurability:0.0f,MiningSpeedExtra:600,Shoddy:0.0f,RenderHandle:1543,Accessory:1543,MiningSpeed:600,Unbreaking:0,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:5400,MiningSpeed2:600,Head:1543,HeadEXP:0L,Attack:5,Handle:1543,Broken:0b,Extra:1543,RenderAccessory:1543,ToolLevel:1,HarvestLevelModified:0b,Modifiers:0},display:{Name:\"§fHSLA Steel 锤\"}}"
+      },
+      "prerequisites": [
+        "八百里外,一枪干掉鬼子的机枪手"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "玩家需要获得指定物品。要求的物品无需提交，只需要在玩家物品栏中即可。                         GT锤子的材质可以是任意的",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hammer",
+                "nbt": "{InfiTool:{RenderExtra:14,BaseDurability:3420,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:3,HarvestLevelExtra:4,RenderHead:14,ModDurability:0.0f,MiningSpeedExtra:650,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,Unbreaking:1,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:3420,MiningSpeed2:650,Head:14,HeadEXP:0L,Attack:6,Handle:14,Broken:0b,Extra:14,RenderAccessory:14,ToolLevel:1,HarvestLevelModified:0b,Modifiers:0},display:{Name:\"§f青铜 锤\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "gregtech:gt.metatool.01",
+                "damage": 12
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 15,
+          "amount": 8
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "IC2:itemIngot",
+          "damage": 2,
+          "amount": 8
+        },
+        {
+          "id": "Railcraft:ingot",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "一刀两断",
+      "description": "斧子除了砍树外,在劈人方面也卓有成效",
+      "x": 281,
+      "y": 72,
+      "icon": {
+        "id": "TConstruct:battleaxe",
+        "nbt": "{InfiTool:{RenderExtra:14,BaseDurability:2137,BaseAttack:8,ToolEXP:0L,Built:1b,HarvestLevel:4,RenderHead:14,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,Unbreaking:1,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:2137,MiningSpeed2:650,Head:14,Attack:8,Handle:14,Broken:0b,Extra:14,RenderAccessory:14,ToolLevel:1,Modifiers:0},display:{Name:\"§f青铜 战斧\"}}"
+      },
+      "prerequisites": [
+        "炊事班"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:battleaxe",
+                "nbt": "{InfiTool:{RenderExtra:14,BaseDurability:2137,BaseAttack:8,ToolEXP:0L,Built:1b,HarvestLevel:4,RenderHead:14,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,Unbreaking:1,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:2137,MiningSpeed2:650,Head:14,Attack:8,Handle:14,Broken:0b,Extra:14,RenderAccessory:14,ToolLevel:1,Modifiers:0},display:{Name:\"§f青铜 战斧\"}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "僵尸",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 20,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 15,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:itemIngot",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 16421,
+          "amount": 16
+        },
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "HardcoreQuesting:hqmInvalidItem"
+        }
+      ]
+    },
+    {
+      "name": "一个模子里面刻出来的",
+      "description": "既然你有了石头铸件,是时候进行浇筑了,好让你有一些坚固耐用的模具",
+      "x": 234,
+      "y": 177,
+      "icon": {
+        "id": "TConstruct:blankPattern",
+        "damage": 1
+      },
+      "prerequisites": [
+        "更大,更好"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:itemIngot",
+          "amount": 12
+        },
+        {
+          "id": "IC2:itemIngot",
+          "damage": 1,
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "更大,更好2",
+      "description": "既然你有了一些可供支配的青铜,为什么不去制作一把经久耐用的青铜工具呢？",
+      "x": 284,
+      "y": 178,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:380,Head:14,HeadEXP:0L,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:3,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,RenderAccessory:14,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:380,Modifiers:0},display:{Name:\"§f青铜 镐\"}}"
+      },
+      "prerequisites": [
+        "合二为一"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:hatchetHead",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:shovelHead",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:swordBlade",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 14
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 14
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "TConstruct:pickaxe",
+                "nbt": "{InfiTool:{BaseDurability:380,Head:14,HeadEXP:0L,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:3,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,RenderAccessory:14,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:380,Modifiers:0},display:{Name:\"§f青铜 镐\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:shovel",
+                "nbt": "{InfiTool:{BaseDurability:380,Head:14,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:4,Attack:5,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:650,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:380,Modifiers:0},display:{Name:\"§f青铜 铲\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:lumberaxe",
+                "nbt": "{InfiTool:{RenderExtra:14,BaseDurability:2137,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:4,RenderHead:14,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,Unbreaking:1,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:2137,MiningSpeed2:650,Head:14,Attack:4,Handle:14,Broken:0b,Extra:14,RenderAccessory:14,ToolLevel:1,Modifiers:0},display:{Name:\"§f青铜 伐木斧\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:broadsword",
+                "nbt": "{InfiTool:{BaseDurability:456,Head:14,BaseAttack:7,ToolEXP:0L,Built:1b,HarvestLevel:4,Attack:7,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,RenderAccessory:14,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:456,Modifiers:0},display:{Name:\"§f青铜 大剑\"}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:blockMetal"
+        },
+        {
+          "id": "IC2:blockMetal",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:iron_block"
+        }
+      ]
+    },
+    {
+      "name": "合二为一",
+      "description": "合金之所以被广泛应用,是因为它的熔点低,硬度更高,所以不妨试试制作一些青铜这一种基础的合金试试手呢？",
+      "x": 233,
+      "y": 120,
+      "icon": {
+        "id": "IC2:itemIngot",
+        "damage": 2
+      },
+      "prerequisites": [
+        "一个模子里面刻出来的"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "IC2:itemIngot",
+                "damage": 2
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IC2:itemIngot",
+          "amount": 16
+        },
+        {
+          "id": "IC2:itemIngot",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "八百里外,一枪干掉鬼子的机枪手",
+      "description": "有时候近身搏斗不是一个明确的选择,试试弓箭吧,能让你在一个安全的范围内干掉对你有威胁的人",
+      "x": 282,
+      "y": 118,
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "prerequisites": [
+        "更大,更好2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:BowLimbPart",
+                "damage": 14
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:ArrowAmmo",
+                "nbt": "{InfiTool:{BreakChance:0.23f,BaseDurability:304,BaseAttack:3,ToolEXP:0L,Built:1b,HarvestLevel:4,ExtraLuckLooting:42,RenderHead:14,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accuracy:95.0f,Accessory:0,MiningSpeed:650,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:304,Head:14,Attack:3,Handle:0,Broken:0b,Mass:4.2f,Ammo:31,RenderAccessory:0,ToolLevel:1,Modifiers:0},display:{Name:\"§f青铜 箭矢\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ShortBow",
+                "nbt": "{InfiTool:{BaseDurability:456,BaseAttack:4,DrawSpeed:40,ToolEXP:0L,Built:1b,HarvestLevel:4,ExtraLuckLooting:42,RenderHead:14,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:14,MiningSpeed:650,Unbreaking:1,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:456,MiningSpeed2:650,BaseDrawSpeed:40,Head:14,Attack:4,Handle:0,Broken:0b,RenderAccessory:14,FlightSpeed:5.1f,ToolLevel:1,Modifiers:0},display:{Name:\"§f青铜 短弓\"}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "僵尸",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 25,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IC2:itemTinCanFilled",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "damage": 16449,
+          "amount": 6
+        },
+        {
+          "id": "IC2:itemCellEmpty",
+          "damage": 2,
+          "amount": 16
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

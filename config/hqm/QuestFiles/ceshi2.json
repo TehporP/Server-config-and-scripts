@@ -1,0 +1,40 @@
+{
+  "name": "ceshi2",
+  "description": "既然你做出来了第一个燃煤锅炉,是时候做点蒸汽机械来让你的蒸汽发挥最大的效益了",
+  "quests": [
+    {
+      "name": "Unnamed4",
+      "x": 35,
+      "y": 20,
+      "prerequisites": [
+        "{ceshi}[蒸汽时代]"
+      ]
+    },
+    {
+      "name": "Unnamed1",
+      "x": 35,
+      "y": 53
+    },
+    {
+      "name": "Unnamed2",
+      "x": 34,
+      "y": 83
+    },
+    {
+      "name": "Unnamed3",
+      "x": 34,
+      "y": 121
+    },
+    {
+      "name": "Unnamed4",
+      "x": 35,
+      "y": 150
+    },
+    {
+      "name": "Unnamed5",
+      "x": 32,
+      "y": 186
+    }
+  ],
+  "reputationBar": []
+}
