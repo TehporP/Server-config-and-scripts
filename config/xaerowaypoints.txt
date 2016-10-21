@@ -1,0 +1,6 @@
+waypoint:新的世界----_null:gui.xaero_deathpoint_old:D:507:-254:543:0:false:0:gui.xaero_default
+waypoint:新的世界----_null:gui.xaero_deathpoint_old:D:-303:-230:-16:0:false:0:gui.xaero_default
+waypoint:新的世界----_null:gui.xaero_deathpoint:D:-122:45:-432:0:false:1:gui.xaero_default
+waypoint:新的世界---_null:gui.xaero_deathpoint_old:D:-1667:-224:38:0:false:0:gui.xaero_default
+waypoint:新的世界---_null:gui.xaero_deathpoint_old:D:-1683:-90:55:0:false:0:gui.xaero_default
+waypoint:新的世界---_null:gui.xaero_deathpoint:D:-1677:-101:39:0:false:1:gui.xaero_default
